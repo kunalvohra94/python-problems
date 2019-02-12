@@ -26,7 +26,7 @@ if __name__ == '__main__':
     arr = map(int, raw_input().split())
 
 maxval = max(arr)
-smax = 0
+smax = -99999  
 
 for val in arr:
     if val != maxval and val > smax < maxval:
